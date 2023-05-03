@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "644095787611",
+    "project_id": "pbl-4thsem-23",
+    "storage_bucket": "pbl-4thsem-23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644095787611:android:92d9cec7371c6b91d8357e",
+        "android_client_info": {
+          "package_name": "com.PBL_proj.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644095787611-9r5v8i1dr5r8lpa0qtf4273k052uaqqi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCb2QA__2keakFuEz62Ppb8Ev1gMopc5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644095787611-9r5v8i1dr5r8lpa0qtf4273k052uaqqi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
