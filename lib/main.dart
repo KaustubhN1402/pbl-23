@@ -2,9 +2,31 @@ import 'package:flutter/material.dart';
 import './login.dart';
 import './register.dart';
 import './profile.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 void main() {
   runApp(MyApp());
+<<<<<<< HEAD
+=======
+
+}
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: MyLogin(),
+      routes: {
+        'register': (context) => MyRegister(),
+        'login': (context) => MyLogin(),
+        'profile':(context) => MyProfile(),
+      },
+    );
+
+  }
+>>>>>>> 5e73addc345f2c095e1d46281bfc1103d3cec719
 }
 
 class MyApp extends StatefulWidget {
