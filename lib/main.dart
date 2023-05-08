@@ -4,18 +4,30 @@ import './register.dart';
 import './profile.dart';
 
 void main() {
-  runApp(MaterialApp(
-    debugShowCheckedModeBanner: false,
-    home: MyLogin(),
-    routes: {
-      'register': (context) => MyRegister(),
-      'login': (context) => MyLogin(),
-      'profile':(context) => MyProfile(),
-    },
-  ));
+  runApp(MyApp());
 }
 
+class MyApp extends StatefulWidget {
+  const MyApp({super.key});
 
+  @override
+  State<MyApp> createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: MyLogin(),
+      routes: {
+        'register': (context) => MyRegister(),
+        'login': (context) => MyLogin(),
+        'profile': (context) => MyProfile(),
+      },
+    );
+  }
+}
 /*
 void main() {
   runApp(MaterialApp(

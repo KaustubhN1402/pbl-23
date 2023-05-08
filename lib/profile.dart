@@ -3,7 +3,7 @@ import 'package:flutter/src/animation/animation_controller.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/ticker_provider.dart';
-import 'package:pbl/main.dart';
+//import 'package:pbl-23/main.dart';
 
 class MyProfile extends StatefulWidget {
   const MyProfile({super.key});
@@ -67,19 +67,13 @@ class _MyProfileState extends State<MyProfile>
                   padding: EdgeInsets.only(left: 35, top: 95),
                 ),
                 Container(
-                  
                   margin: EdgeInsets.all(25.0),
                   color: Colors.grey.shade300,
                   height: 200.0,
                   width: 400.0,
-                  
-                  
                   child: Column(
-                    
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      
-                      
                       Center(
                         child: Icon(
                           Icons.account_circle,
@@ -98,7 +92,7 @@ class _MyProfileState extends State<MyProfile>
                   children: [
                     Container(
                       // margin: EdgeInsets.fromLTRB(),
-                      
+
                       margin: EdgeInsets.only(left: 35, bottom: 60),
                       height: 60,
                       width: 70,
